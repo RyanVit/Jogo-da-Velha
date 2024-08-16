@@ -1,0 +1,106 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+/* Estilo do status do jogo */
+#game-status {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #555;
+}
+
+/* Estilo dos botões de dificuldade */
+#difficulty-buttons {
+    margin: 20px 0;
+}
+
+#difficulty-buttons button {
+    font-size: 1em;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#difficulty-buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo do botão selecionado */
+#difficulty-buttons .selected {
+    background-color: #062444;
+}
+
+/* Estilo do contador de pontos */
+#scoreboard {
+    margin: 20px 0;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.score {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+.score span {
+    margin: 0 10px;
+}
+
+/* Estilo do tabuleiro do jogo */
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    background-color: #fff;
+    border: 2px solid #333;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cell:hover {
+    background-color: #f0f0f0;
+}
+
+/* Estilo do botão de reinício */
+#restart-button {
+    font-size: 1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+#restart-button:hover {
+    background-color: #218838;
+}
