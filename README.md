@@ -7,8 +7,9 @@ CSS: Estiliza o jogo, tornando-o visualmente atraente.
 JavaScript: Implementa a lógica do jogo, incluindo a IA que controla os movimentos do computador.
 
 ##Estrutura do Projeto
+
 jodo-da-velha
-│
+|
 ├── index.html      // Contém a estrutura HTML do jogo
 ├── style.css       // Arquivo CSS para estilização do jogo
 └── script.js       // Arquivo JavaScript para lógica do jogo e implementação da IA
